@@ -150,6 +150,7 @@ def predict(test_img, catch=None):
 
 
 print("Predicting images...")
+print("Press a for captured and going to prediction q for exit")
 while(1):
       keypressed = raw_input()
       if keypressed == 'q':
